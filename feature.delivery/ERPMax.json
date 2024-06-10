@@ -1,0 +1,452 @@
+{
+    "product": "ERPMax (Web Application)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-03-01T00:00:00Z",
+        "endDate": "2023-03-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Initial release with key features for finance and HR modules.",
+        "children": [
+          {
+            "title": "Finance Module",
+            "subType": "Feature",
+            "description": "Introducing the finance module with essential features and fixes.",
+            "children": [
+              {
+                "title": "Resolved issues with ledger balancing.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the balancing of ledgers."
+              },
+              {
+                "title": "Fixed errors in financial report generation.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors encountered during financial report generation."
+              },
+              {
+                "title": "Added support for multi-currency transactions.",
+                "subType": "Enhancement",
+                "description": "Introduced support for transactions in multiple currencies."
+              },
+              {
+                "title": "Improved budgeting and forecasting tools.",
+                "subType": "Enhancement",
+                "description": "Enhanced tools for better budgeting and financial forecasting."
+              }
+            ]
+          },
+          {
+            "title": "HR Module",
+            "subType": "Feature",
+            "description": "Introducing the HR module with new tools and bug fixes.",
+            "children": [
+              {
+                "title": "Fixed bugs in employee record management.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues in managing employee records."
+              },
+              {
+                "title": "Resolved issues with payroll calculations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting payroll calculations."
+              },
+              {
+                "title": "Introduced advanced performance evaluation tools.",
+                "subType": "Enhancement",
+                "description": "Added tools for evaluating employee performance."
+              },
+              {
+                "title": "Added self-service portal for employees.",
+                "subType": "Enhancement",
+                "description": "Introduced a portal for employees to manage their own information."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-08-01T00:00:00Z",
+        "endDate": "2023-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Enhancements to supply chain management and customer relationship management.",
+        "children": [
+          {
+            "title": "Supply Chain Management (SCM)",
+            "subType": "Feature",
+            "description": "Enhancing the SCM module with new features and fixes.",
+            "children": [
+              {
+                "title": "Corrected issues with inventory tracking.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with tracking inventory."
+              },
+              {
+                "title": "Resolved bugs in order fulfillment process.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues affecting order fulfillment."
+              },
+              {
+                "title": "Added support for real-time inventory updates.",
+                "subType": "Enhancement",
+                "description": "Introduced real-time updates for inventory management."
+              },
+              {
+                "title": "Implemented advanced supplier management tools.",
+                "subType": "Enhancement",
+                "description": "Added tools for managing suppliers more effectively."
+              }
+            ]
+          },
+          {
+            "title": "Customer Relationship Management (CRM)",
+            "subType": "Feature",
+            "description": "Enhancing the CRM module with new features and fixes.",
+            "children": [
+              {
+                "title": "Fixed errors in customer data synchronization.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with synchronizing customer data."
+              },
+              {
+                "title": "Resolved issues with contact management.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting contact management."
+              },
+              {
+                "title": "Introduced automated lead scoring.",
+                "subType": "Enhancement",
+                "description": "Added automated lead scoring to prioritize leads."
+              },
+              {
+                "title": "Added support for multi-channel customer interactions.",
+                "subType": "Enhancement",
+                "description": "Introduced support for interacting with customers across multiple channels."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-02-01T00:00:00Z",
+        "endDate": "2024-02-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Major update with advanced analytics and enhanced security.",
+        "children": [
+          {
+            "title": "Advanced Analytics",
+            "subType": "Feature",
+            "description": "Introducing advanced analytics for better insights.",
+            "children": [
+              {
+                "title": "Corrected data discrepancies in reports.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing discrepancies in analytics reports."
+              },
+              {
+                "title": "Fixed bugs in dashboard widgets.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with widgets on the analytics dashboard."
+              },
+              {
+                "title": "Added predictive analytics for sales forecasting.",
+                "subType": "Enhancement",
+                "description": "Introduced predictive analytics to forecast sales."
+              },
+              {
+                "title": "Improved data visualization options.",
+                "subType": "Enhancement",
+                "description": "Enhanced options for visualizing data in reports."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security",
+            "subType": "Feature",
+            "description": "Implementing new security features to protect user data.",
+            "children": [
+              {
+                "title": "Resolved vulnerabilities in user authentication.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in the authentication process."
+              },
+              {
+                "title": "Fixed issues with data encryption.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with data encryption methods."
+              },
+              {
+                "title": "Implemented role-based access control.",
+                "subType": "Enhancement",
+                "description": "Added support for controlling access based on user roles."
+              },
+              {
+                "title": "Added multi-factor authentication support.",
+                "subType": "Enhancement",
+                "description": "Introduced multi-factor authentication for enhanced security."
+              }
+            ]
+          },
+          {
+            "title": "Mobile Optimization",
+            "subType": "Feature",
+            "description": "Optimizing the application for better mobile use.",
+            "children": [
+              {
+                "title": "Corrected layout issues on mobile devices.",
+                "subType": "Bug Fix",
+                "description": "Fixed layout problems affecting mobile users."
+              },
+              {
+                "title": "Improved mobile interface for all modules.",
+                "subType": "Enhancement",
+                "description": "Enhanced the mobile interface across all application modules."
+              },
+              {
+                "title": "Added mobile-specific features for quick access.",
+                "subType": "Enhancement",
+                "description": "Introduced features for quick access on mobile devices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.4.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Focused on enhancing the finance and HR modules.",
+        "children": [
+          {
+            "title": "Finance Module Enhancements",
+            "subType": "Feature",
+            "description": "Introducing new features and fixes to the finance module.",
+            "children": [
+              {
+                "title": "Resolved issues with tax calculation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the calculation of taxes."
+              },
+              {
+                "title": "Fixed bugs in expense tracking.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with tracking expenses."
+              },
+              {
+                "title": "Introduced automated reconciliation.",
+                "subType": "Enhancement",
+                "description": "Added features for automatic reconciliation of accounts."
+              },
+              {
+                "title": "Added support for new financial regulations.",
+                "subType": "Enhancement",
+                "description": "Introduced support for compliance with new financial regulations."
+              }
+            ]
+          },
+          {
+            "title": "HR Module Enhancements",
+            "subType": "Feature",
+            "description": "Enhancing the HR module with new features and fixes.",
+            "children": [
+              {
+                "title": "Fixed errors in leave management system.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the leave management system."
+              },
+              {
+                "title": "Resolved issues with benefits administration.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems in administering employee benefits."
+              },
+              {
+                "title": "Added support for remote workforce management.",
+                "subType": "Enhancement",
+                "description": "Introduced features for managing a remote workforce."
+              },
+              {
+                "title": "Improved employee onboarding process.",
+                "subType": "Enhancement",
+                "description": "Enhanced the process for onboarding new employees."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": "2025-04-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Major update with supply chain optimization and CRM enhancements.",
+        "children": [
+          {
+            "title": "Supply Chain Optimization",
+            "subType": "Feature",
+            "description": "Enhancing the supply chain module with AI-driven tools.",
+            "children": [
+              {
+                "title": "Corrected issues with shipment tracking.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting the tracking of shipments."
+              },
+              {
+                "title": "Fixed bugs in demand forecasting.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues with forecasting demand in the supply chain."
+              },
+              {
+                "title": "Implemented AI-driven supply chain optimization.",
+                "subType": "Enhancement",
+                "description": "Added AI tools to optimize the supply chain process."
+              },
+              {
+                "title": "Added advanced logistics management tools.",
+                "subType": "Enhancement",
+                "description": "Introduced tools for better management of logistics."
+              }
+            ]
+          },
+          {
+            "title": "CRM Module Enhancements",
+            "subType": "Feature",
+            "description": "Introducing new features and improvements to the CRM module.",
+            "children": [
+              {
+                "title": "Resolved issues with CRM integrations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting integrations with the CRM module."
+              },
+              {
+                "title": "Fixed errors in customer segmentation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with segmenting customers in the CRM."
+              },
+              {
+                "title": "Introduced customer journey mapping.",
+                "subType": "Enhancement",
+                "description": "Added tools for mapping the customer journey."
+              },
+              {
+                "title": "Improved CRM analytics and reporting.",
+                "subType": "Enhancement",
+                "description": "Enhanced analytics and reporting features in the CRM module."
+              }
+            ]
+          },
+          {
+            "title": "User Experience Improvements",
+            "subType": "Feature",
+            "description": "Enhancing the overall user experience with new features and fixes.",
+            "children": [
+              {
+                "title": "Resolved interface inconsistencies.",
+                "subType": "Bug Fix",
+                "description": "Fixed inconsistencies in the user interface design."
+              },
+              {
+                "title": "Fixed navigation issues.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting navigation within the application."
+              },
+              {
+                "title": "Improved overall user interface design.",
+                "subType": "Enhancement",
+                "description": "Enhanced the design of the user interface for better usability."
+              },
+              {
+                "title": "Added customizable dashboards for different user roles.",
+                "subType": "Enhancement",
+                "description": "Introduced customizable dashboards tailored to different user roles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-12-01T00:00:00Z",
+        "endDate": "2025-12-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "ERPMax (Web Application)",
+        "description": "Focused on advanced reporting and integration hub enhancements.",
+        "children": [
+          {
+            "title": "Advanced Reporting",
+            "subType": "Feature",
+            "description": "Introducing advanced reporting features and fixes.",
+            "children": [
+              {
+                "title": "Corrected issues with report scheduling.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the scheduling of reports."
+              },
+              {
+                "title": "Fixed bugs in custom report generation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues encountered during custom report generation."
+              },
+              {
+                "title": "Added support for cross-module reporting.",
+                "subType": "Enhancement",
+                "description": "Introduced features for reporting across multiple modules."
+              },
+              {
+                "title": "Introduced advanced filtering and sorting options.",
+                "subType": "Enhancement",
+                "description": "Added advanced options for filtering and sorting report data."
+              }
+            ]
+          },
+          {
+            "title": "Integration Hub",
+            "subType": "Feature",
+            "description": "Enhancing the integration hub with new features and fixes.",
+            "children": [
+              {
+                "title": "Resolved issues with third-party integrations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting third-party integrations."
+              },
+              {
+                "title": "Added support for new API integrations.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating new APIs."
+              },
+              {
+                "title": "Implemented seamless integration with popular business applications.",
+                "subType": "Enhancement",
+                "description": "Added features for seamless integration with various business applications."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

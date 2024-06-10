@@ -1,0 +1,462 @@
+{
+    "product": "SecureStore (Database)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-01-01T00:00:00Z",
+        "endDate": "2023-01-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Initial release with data encryption and access control features.",
+        "children": [
+          {
+            "title": "Data Encryption",
+            "subType": "Feature",
+            "description": "Introducing data encryption to secure stored information.",
+            "children": [
+              {
+                "title": "Resolved issues with encryption key management.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the management of encryption keys."
+              },
+              {
+                "title": "Fixed errors in data encryption/decryption processes.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors in the processes for encrypting and decrypting data."
+              },
+              {
+                "title": "Added support for AES-256 encryption.",
+                "subType": "Enhancement",
+                "description": "Introduced support for AES-256 encryption for stronger security."
+              },
+              {
+                "title": "Implemented automatic key rotation.",
+                "subType": "Enhancement",
+                "description": "Added features for automatic rotation of encryption keys."
+              }
+            ]
+          },
+          {
+            "title": "Access Controls",
+            "subType": "Feature",
+            "description": "Improving access controls for better security and management.",
+            "children": [
+              {
+                "title": "Corrected issues with user role assignments.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with assigning roles to users."
+              },
+              {
+                "title": "Fixed bugs in access control lists (ACL).",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting access control lists."
+              },
+              {
+                "title": "Introduced multi-factor authentication (MFA) for access.",
+                "subType": "Enhancement",
+                "description": "Added support for multi-factor authentication to enhance security."
+              },
+              {
+                "title": "Added granular permission settings for different user roles.",
+                "subType": "Enhancement",
+                "description": "Introduced more detailed permission settings for various user roles."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-07-01T00:00:00Z",
+        "endDate": "2023-07-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Enhancements for GDPR compliance and audit logging.",
+        "children": [
+          {
+            "title": "Compliance with GDPR",
+            "subType": "Feature",
+            "description": "Implementing features to comply with GDPR regulations.",
+            "children": [
+              {
+                "title": "Resolved issues with data subject access requests.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting data subject access requests."
+              },
+              {
+                "title": "Fixed bugs in data anonymization processes.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues in the data anonymization processes."
+              },
+              {
+                "title": "Implemented automated data retention policies.",
+                "subType": "Enhancement",
+                "description": "Introduced automated policies for data retention to comply with GDPR."
+              },
+              {
+                "title": "Added support for data portability requests.",
+                "subType": "Enhancement",
+                "description": "Introduced support for handling data portability requests."
+              }
+            ]
+          },
+          {
+            "title": "Audit Logging",
+            "subType": "Feature",
+            "description": "Enhancing audit logging for better monitoring and security.",
+            "children": [
+              {
+                "title": "Corrected issues with log generation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with generating audit logs."
+              },
+              {
+                "title": "Fixed bugs in log storage and retrieval.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the storage and retrieval of logs."
+              },
+              {
+                "title": "Introduced detailed audit logs for all access and changes.",
+                "subType": "Enhancement",
+                "description": "Added detailed logs to track all access and changes in the system."
+              },
+              {
+                "title": "Added real-time monitoring and alerting for suspicious activities.",
+                "subType": "Enhancement",
+                "description": "Introduced features for real-time monitoring and alerting of suspicious activities."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-03-01T00:00:00Z",
+        "endDate": "2024-03-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Major update with HIPAA compliance and performance optimization.",
+        "children": [
+          {
+            "title": "HIPAA Compliance",
+            "subType": "Feature",
+            "description": "Implementing features to comply with HIPAA regulations.",
+            "children": [
+              {
+                "title": "Resolved issues with encryption of PHI (Protected Health Information).",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with the encryption of protected health information."
+              },
+              {
+                "title": "Fixed errors in access log auditing.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the auditing of access logs."
+              },
+              {
+                "title": "Implemented secure data sharing protocols.",
+                "subType": "Enhancement",
+                "description": "Added secure protocols for sharing sensitive data."
+              },
+              {
+                "title": "Added support for HIPAA-compliant data backup and recovery.",
+                "subType": "Enhancement",
+                "description": "Introduced features for HIPAA-compliant backup and recovery of data."
+              }
+            ]
+          },
+          {
+            "title": "Performance Optimization",
+            "subType": "Feature",
+            "description": "Improving performance for faster and more efficient operations.",
+            "children": [
+              {
+                "title": "Corrected issues with database indexing.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting database indexing."
+              },
+              {
+                "title": "Fixed bugs in query execution plans.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with executing query plans."
+              },
+              {
+                "title": "Improved data retrieval speeds.",
+                "subType": "Enhancement",
+                "description": "Enhanced the speed of data retrieval processes."
+              },
+              {
+                "title": "Optimized storage efficiency.",
+                "subType": "Enhancement",
+                "description": "Improved storage efficiency to reduce resource usage."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security Features",
+            "subType": "Feature",
+            "description": "Introducing new security features to enhance data protection.",
+            "children": [
+              {
+                "title": "Resolved vulnerabilities in user authentication.",
+                "subType": "Bug Fix",
+                "description": "Fixed security vulnerabilities in the authentication process."
+              },
+              {
+                "title": "Fixed issues with SSL/TLS encryption.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with SSL/TLS encryption."
+              },
+              {
+                "title": "Introduced role-based access control (RBAC).",
+                "subType": "Enhancement",
+                "description": "Added role-based access control to improve security."
+              },
+              {
+                "title": "Added support for IP whitelisting and blacklisting.",
+                "subType": "Enhancement",
+                "description": "Introduced IP whitelisting and blacklisting for better access control."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.4.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Enhancements in data masking and backup and recovery features.",
+        "children": [
+          {
+            "title": "Data Masking",
+            "subType": "Feature",
+            "description": "Introducing data masking features to protect sensitive information.",
+            "children": [
+              {
+                "title": "Corrected issues with masking sensitive fields.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with masking sensitive data fields."
+              },
+              {
+                "title": "Fixed bugs in data masking for backups.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with masking data in backups."
+              },
+              {
+                "title": "Added support for dynamic data masking.",
+                "subType": "Enhancement",
+                "description": "Introduced dynamic data masking to enhance data security."
+              },
+              {
+                "title": "Implemented masking for both structured and unstructured data.",
+                "subType": "Enhancement",
+                "description": "Added masking features for all types of data, structured and unstructured."
+              }
+            ]
+          },
+          {
+            "title": "Backup and Recovery",
+            "subType": "Feature",
+            "description": "Enhancing backup and recovery processes for better data protection.",
+            "children": [
+              {
+                "title": "Resolved issues with incremental backups.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with performing incremental backups."
+              },
+              {
+                "title": "Fixed errors in data restoration processes.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the restoration of data from backups."
+              },
+              {
+                "title": "Introduced automated backup scheduling.",
+                "subType": "Enhancement",
+                "description": "Added features for scheduling automated backups."
+              },
+              {
+                "title": "Added support for geographically distributed backups.",
+                "subType": "Enhancement",
+                "description": "Introduced support for backups distributed across multiple locations."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": "2025-04-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Major update with AI-driven anomaly detection and data integration.",
+        "children": [
+          {
+            "title": "AI-Driven Anomaly Detection",
+            "subType": "Feature",
+            "description": "Introducing AI-driven features for real-time anomaly detection.",
+            "children": [
+              {
+                "title": "Resolved issues with false positives in anomaly detection.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems causing false positives in anomaly detection."
+              },
+              {
+                "title": "Fixed errors in machine learning model training.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with training machine learning models for anomaly detection."
+              },
+              {
+                "title": "Implemented AI-driven anomaly detection for real-time threat identification.",
+                "subType": "Enhancement",
+                "description": "Added AI-driven features to identify threats in real time."
+              },
+              {
+                "title": "Added support for customizable anomaly detection rules.",
+                "subType": "Enhancement",
+                "description": "Introduced customizable rules for anomaly detection to meet specific needs."
+              }
+            ]
+          },
+          {
+            "title": "Data Integration",
+            "subType": "Feature",
+            "description": "Enhancing data integration capabilities for seamless data management.",
+            "children": [
+              {
+                "title": "Corrected issues with integration connectors.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with connectors used for data integration."
+              },
+              {
+                "title": "Fixed bugs in data synchronization across systems.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with synchronizing data across different systems."
+              },
+              {
+                "title": "Added support for integrating with major cloud providers.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating with major cloud service providers."
+              },
+              {
+                "title": "Implemented seamless data migration tools.",
+                "subType": "Enhancement",
+                "description": "Added tools for seamless migration of data between systems."
+              }
+            ]
+          },
+          {
+            "title": "Advanced Reporting",
+            "subType": "Feature",
+            "description": "Introducing advanced reporting features for better data insights.",
+            "children": [
+              {
+                "title": "Resolved issues with report generation times.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the time it takes to generate reports."
+              },
+              {
+                "title": "Fixed errors in custom report creation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with creating custom reports."
+              },
+              {
+                "title": "Introduced advanced reporting features with real-time data.",
+                "subType": "Enhancement",
+                "description": "Added advanced features for generating reports with real-time data."
+              },
+              {
+                "title": "Added support for exportable report formats.",
+                "subType": "Enhancement",
+                "description": "Introduced support for exporting reports in various formats."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-12-01T00:00:00Z",
+        "endDate": "2025-12-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "SecureStore (Database)",
+        "description": "Focused on user activity monitoring and enhanced encryption protocols.",
+        "children": [
+          {
+            "title": "User Activity Monitoring",
+            "subType": "Feature",
+            "description": "Introducing detailed monitoring features for user activities.",
+            "children": [
+              {
+                "title": "Resolved issues with activity log completeness.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the completeness of activity logs."
+              },
+              {
+                "title": "Fixed bugs in activity log filtering.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with filtering activity logs."
+              },
+              {
+                "title": "Introduced detailed user activity dashboards.",
+                "subType": "Enhancement",
+                "description": "Added dashboards for detailed monitoring of user activities."
+              },
+              {
+                "title": "Added support for automated suspicious activity alerts.",
+                "subType": "Enhancement",
+                "description": "Introduced automated alerts for detecting suspicious activities."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Encryption Protocols",
+            "subType": "Feature",
+            "description": "Improving encryption protocols for better security.",
+            "children": [
+              {
+                "title": "Corrected issues with legacy encryption support.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with supporting legacy encryption protocols."
+              },
+              {
+                "title": "Fixed errors in protocol compatibility.",
+                "subType": "Bug Fix",
+                "description": "Resolved compatibility issues with encryption protocols."
+              },
+              {
+                "title": "Implemented support for post-quantum cryptography.",
+                "subType": "Enhancement",
+                "description": "Introduced support for cryptographic methods that are secure against quantum attacks."
+              },
+              {
+                "title": "Improved encryption performance with hardware acceleration.",
+                "subType": "Enhancement",
+                "description": "Enhanced encryption performance by using hardware acceleration."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

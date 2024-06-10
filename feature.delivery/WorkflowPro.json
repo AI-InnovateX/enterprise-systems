@@ -1,0 +1,457 @@
+{
+    "product": "WorkFlowPro (API)",
+    "roadmapItems": [
+      {
+        "title": "Release 1.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-04-01T00:00:00Z",
+        "endDate": "2023-04-02T00:00:00Z",
+        "style": "blue",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Initial release with basic workflow automation and enterprise system integration.",
+        "children": [
+          {
+            "title": "Basic Workflow Automation",
+            "subType": "Feature",
+            "description": "Introducing basic workflow automation features.",
+            "children": [
+              {
+                "title": "Resolved issues with trigger execution.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the execution of workflow triggers."
+              },
+              {
+                "title": "Fixed bugs in condition evaluation.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors in evaluating workflow conditions."
+              },
+              {
+                "title": "Added support for multiple trigger types.",
+                "subType": "Enhancement",
+                "description": "Introduced support for various types of workflow triggers."
+              },
+              {
+                "title": "Improved error handling and logging.",
+                "subType": "Enhancement",
+                "description": "Enhanced error handling and logging mechanisms for workflows."
+              }
+            ]
+          },
+          {
+            "title": "Integration with Enterprise Systems",
+            "subType": "Feature",
+            "description": "Integrating with major enterprise systems for better connectivity.",
+            "children": [
+              {
+                "title": "Corrected issues with system connectivity.",
+                "subType": "Bug Fix",
+                "description": "Fixed connectivity issues with enterprise systems."
+              },
+              {
+                "title": "Fixed bugs in data synchronization.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting data synchronization between systems."
+              },
+              {
+                "title": "Added support for SAP and Oracle integrations.",
+                "subType": "Enhancement",
+                "description": "Introduced integration support for SAP and Oracle systems."
+              },
+              {
+                "title": "Improved API response times.",
+                "subType": "Enhancement",
+                "description": "Enhanced the response times of the API for better performance."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 1.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2023-10-01T00:00:00Z",
+        "endDate": "2023-10-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Enhancing rule-based automation and security features.",
+        "children": [
+          {
+            "title": "Advanced Rule-Based Automation",
+            "subType": "Feature",
+            "description": "Introducing advanced features for rule-based workflow automation.",
+            "children": [
+              {
+                "title": "Resolved issues with nested rules.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with nested rule execution."
+              },
+              {
+                "title": "Fixed bugs in rule validation.",
+                "subType": "Bug Fix",
+                "description": "Corrected errors in validating workflow rules."
+              },
+              {
+                "title": "Introduced complex rule chaining.",
+                "subType": "Enhancement",
+                "description": "Added support for chaining multiple rules together."
+              },
+              {
+                "title": "Added support for time-based rules.",
+                "subType": "Enhancement",
+                "description": "Introduced rules that can be triggered based on time."
+              }
+            ]
+          },
+          {
+            "title": "Enhanced Security",
+            "subType": "Feature",
+            "description": "Improving security features for API access.",
+            "children": [
+              {
+                "title": "Fixed vulnerabilities in API authentication.",
+                "subType": "Bug Fix",
+                "description": "Resolved security vulnerabilities in the authentication process."
+              },
+              {
+                "title": "Corrected issues with data encryption.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting data encryption."
+              },
+              {
+                "title": "Implemented OAuth2 for secure API access.",
+                "subType": "Enhancement",
+                "description": "Added OAuth2 support for secure access to the API."
+              },
+              {
+                "title": "Added support for IP whitelisting.",
+                "subType": "Enhancement",
+                "description": "Introduced IP whitelisting to restrict access to the API."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-03-01T00:00:00Z",
+        "endDate": "2024-03-02T00:00:00Z",
+        "style": "red",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Major update with dynamic workflow creation, analytics, and scalability improvements.",
+        "children": [
+          {
+            "title": "Dynamic Workflow Creation",
+            "subType": "Feature",
+            "description": "Introducing features for dynamic creation of workflows.",
+            "children": [
+              {
+                "title": "Resolved bugs in dynamic workflow generation.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues with generating dynamic workflows."
+              },
+              {
+                "title": "Fixed issues with workflow versioning.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting the versioning of workflows."
+              },
+              {
+                "title": "Introduced a drag-and-drop interface for workflow design.",
+                "subType": "Enhancement",
+                "description": "Added a drag-and-drop interface for designing workflows."
+              },
+              {
+                "title": "Added support for workflow templates.",
+                "subType": "Enhancement",
+                "description": "Introduced templates to simplify workflow creation."
+              }
+            ]
+          },
+          {
+            "title": "Analytics and Reporting",
+            "subType": "Feature",
+            "description": "Enhancing analytics and reporting features for better insights.",
+            "children": [
+              {
+                "title": "Corrected issues with data aggregation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with aggregating data for reports."
+              },
+              {
+                "title": "Fixed bugs in report generation.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting the generation of reports."
+              },
+              {
+                "title": "Added real-time workflow performance analytics.",
+                "subType": "Enhancement",
+                "description": "Introduced real-time analytics for monitoring workflow performance."
+              },
+              {
+                "title": "Implemented customizable reporting features.",
+                "subType": "Enhancement",
+                "description": "Added customizable options for generating reports."
+              }
+            ]
+          },
+          {
+            "title": "Scalability Improvements",
+            "subType": "Feature",
+            "description": "Enhancing scalability to handle high-volume requests.",
+            "children": [
+              {
+                "title": "Resolved performance bottlenecks.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues causing performance bottlenecks in the system."
+              },
+              {
+                "title": "Fixed issues with concurrent workflow executions.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems with executing workflows concurrently."
+              },
+              {
+                "title": "Improved API scalability to handle high-volume requests.",
+                "subType": "Enhancement",
+                "description": "Enhanced the API to manage a high volume of requests."
+              },
+              {
+                "title": "Added support for distributed processing.",
+                "subType": "Enhancement",
+                "description": "Introduced support for distributed processing of workflows."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 2.3.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2024-09-01T00:00:00Z",
+        "endDate": "2024-09-02T00:00:00Z",
+        "style": "purple",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Focused on enhancing integration capabilities and user management.",
+        "children": [
+          {
+            "title": "Enhanced Integration Capabilities",
+            "subType": "Feature",
+            "description": "Improving integration features for better connectivity.",
+            "children": [
+              {
+                "title": "Resolved issues with third-party API integrations.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting integrations with third-party APIs."
+              },
+              {
+                "title": "Fixed bugs in webhook handling.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with handling webhooks."
+              },
+              {
+                "title": "Added support for additional enterprise systems.",
+                "subType": "Enhancement",
+                "description": "Introduced support for integrating more enterprise systems."
+              },
+              {
+                "title": "Improved integration setup and management.",
+                "subType": "Enhancement",
+                "description": "Enhanced the process of setting up and managing integrations."
+              }
+            ]
+          },
+          {
+            "title": "User Management",
+            "subType": "Feature",
+            "description": "Introducing advanced user management features.",
+            "children": [
+              {
+                "title": "Fixed issues with user role assignments.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting the assignment of user roles."
+              },
+              {
+                "title": "Resolved bugs in permission settings.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues with setting user permissions."
+              },
+              {
+                "title": "Introduced role-based access control.",
+                "subType": "Enhancement",
+                "description": "Added role-based access control for better security."
+              },
+              {
+                "title": "Added support for multi-tenant user management.",
+                "subType": "Enhancement",
+                "description": "Introduced features for managing users across multiple tenants."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.0.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-02-01T00:00:00Z",
+        "endDate": "2025-02-02T00:00:00Z",
+        "style": "orange",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Major update with AI-driven automation, mobile access, and compliance.",
+        "children": [
+          {
+            "title": "AI-Driven Automation",
+            "subType": "Feature",
+            "description": "Introducing AI features for advanced workflow automation.",
+            "children": [
+              {
+                "title": "Corrected issues with AI model integration.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems with integrating AI models."
+              },
+              {
+                "title": "Fixed bugs in AI-driven decision making.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting AI-driven decisions in workflows."
+              },
+              {
+                "title": "Introduced machine learning for predictive workflows.",
+                "subType": "Enhancement",
+                "description": "Added machine learning features to enable predictive workflows."
+              },
+              {
+                "title": "Added support for natural language processing in rule definitions.",
+                "subType": "Enhancement",
+                "description": "Introduced NLP to simplify the definition of workflow rules."
+              }
+            ]
+          },
+          {
+            "title": "Mobile Access",
+            "subType": "Feature",
+            "description": "Enhancing mobile access to workflow management features.",
+            "children": [
+              {
+                "title": "Resolved issues with mobile API calls.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting API calls from mobile devices."
+              },
+              {
+                "title": "Improved mobile API performance.",
+                "subType": "Enhancement",
+                "description": "Enhanced the performance of the API when accessed from mobile devices."
+              },
+              {
+                "title": "Added mobile-specific features for workflow management.",
+                "subType": "Enhancement",
+                "description": "Introduced features for managing workflows specifically from mobile devices."
+              }
+            ]
+          },
+          {
+            "title": "Compliance and Audit",
+            "subType": "Feature",
+            "description": "Implementing features to ensure compliance and detailed auditing.",
+            "children": [
+              {
+                "title": "Corrected issues with audit trail generation.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the generation of audit trails."
+              },
+              {
+                "title": "Fixed bugs in compliance reporting.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues affecting compliance report generation."
+              },
+              {
+                "title": "Implemented comprehensive audit logging.",
+                "subType": "Enhancement",
+                "description": "Introduced detailed logging for auditing purposes."
+              },
+              {
+                "title": "Added support for industry-specific compliance standards.",
+                "subType": "Enhancement",
+                "description": "Introduced features to meet various industry compliance standards."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Release 3.2.0",
+        "type": "Release",
+        "subType": "Release",
+        "startDate": "2025-08-01T00:00:00Z",
+        "endDate": "2025-08-02T00:00:00Z",
+        "style": "green",
+        "source": "Internal",
+        "product": "WorkFlowPro (API)",
+        "description": "Focused on advanced monitoring, alerts, and custom scripting.",
+        "children": [
+          {
+            "title": "Advanced Monitoring and Alerts",
+            "subType": "Feature",
+            "description": "Introducing advanced features for monitoring workflows and alerts.",
+            "children": [
+              {
+                "title": "Resolved issues with alert triggers.",
+                "subType": "Bug Fix",
+                "description": "Fixed problems affecting the triggering of alerts."
+              },
+              {
+                "title": "Fixed bugs in monitoring dashboards.",
+                "subType": "Bug Fix",
+                "description": "Resolved issues with the monitoring dashboards."
+              },
+              {
+                "title": "Introduced customizable alerts and notifications.",
+                "subType": "Enhancement",
+                "description": "Added features for creating customizable alerts and notifications."
+              },
+              {
+                "title": "Added support for real-time monitoring of workflow status.",
+                "subType": "Enhancement",
+                "description": "Introduced real-time monitoring for tracking the status of workflows."
+              }
+            ]
+          },
+          {
+            "title": "Custom Scripting",
+            "subType": "Feature",
+            "description": "Enhancing workflow automation with custom scripting capabilities.",
+            "children": [
+              {
+                "title": "Fixed issues with script execution.",
+                "subType": "Bug Fix",
+                "description": "Resolved problems affecting the execution of custom scripts."
+              },
+              {
+                "title": "Resolved bugs in script debugging.",
+                "subType": "Bug Fix",
+                "description": "Fixed issues affecting the debugging of custom scripts."
+              },
+              {
+                "title": "Added support for custom scripts in workflow automation.",
+                "subType": "Enhancement",
+                "description": "Introduced support for adding custom scripts to workflows."
+              },
+              {
+                "title": "Improved script management and version control.",
+                "subType": "Enhancement",
+                "description": "Enhanced management and version control for custom scripts."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
